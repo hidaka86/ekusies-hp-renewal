@@ -66,53 +66,6 @@
 
 <!-- ============ RECRUIT HERO ============ -->
 <section class="hero r-hero">
-  <div class="hero-riser anim-scope" aria-hidden="true">
-    <svg viewBox="0 0 900 800" preserveAspectRatio="xMaxYMid meet">
-      <!-- 拡大した配管分岐部 -->
-      <g stroke="rgba(137,170,214,0.3)" stroke-width="1.25" fill="none">
-        <line class="dp" pathLength="1" x1="250" y1="0" x2="250" y2="800"/>
-        <line class="dp" pathLength="1" x1="292" y1="0" x2="292" y2="800"/>
-        <line class="dp" pathLength="1" x1="250" y1="120" x2="292" y2="120"/>
-        <line class="dp" pathLength="1" x1="250" y1="132" x2="292" y2="132"/>
-        <line class="dp" pathLength="1" x1="250" y1="620" x2="292" y2="620"/>
-        <line class="dp" pathLength="1" x1="250" y1="632" x2="292" y2="632"/>
-        <line class="dp" pathLength="1" x1="292" y1="360" x2="640" y2="360"/>
-        <line class="dp" pathLength="1" x1="292" y1="402" x2="640" y2="402"/>
-        <line class="dp" pathLength="1" x1="470" y1="348" x2="470" y2="360"/>
-        <line class="dp" pathLength="1" x1="470" y1="402" x2="470" y2="414"/>
-        <path class="dp" pathLength="1" d="M640 360 V300 M640 402 V300"/>
-      </g>
-      <!-- バルブ(蝶ネクタイ記号) -->
-      <g stroke="rgba(137,170,214,0.45)" stroke-width="1.25" fill="none">
-        <path class="dp" pathLength="1" d="M440 350 L500 412 M440 412 L500 350"/>
-        <line class="dp" pathLength="1" x1="470" y1="340" x2="470" y2="310"/>
-        <circle class="dp" pathLength="1" cx="470" cy="296" r="14"/>
-      </g>
-      <!-- 主要ライン(真鍮) -->
-      <g stroke="#C89B52" stroke-width="1.5" fill="none">
-        <line class="dp" pathLength="1" x1="271" y1="0" x2="271" y2="800"/>
-        <line class="dp" pathLength="1" x1="271" y1="381" x2="640" y2="381"/>
-      </g>
-      <g class="fp" stroke="#C89B52" stroke-width="1.5" fill="none" stroke-dasharray="8 4">
-        <line x1="640" y1="381" x2="640" y2="140"/>
-        <line x1="640" y1="140" x2="880" y2="140"/>
-      </g>
-      <g class="fp" stroke="#C89B52" stroke-width="1.5" fill="none" stroke-dasharray="12 4 2 4">
-        <line x1="470" y1="414" x2="470" y2="700"/>
-        <line x1="470" y1="700" x2="880" y2="700"/>
-      </g>
-      <g class="fp" fill="#C89B52" stroke="none">
-        <circle cx="271" cy="381" r="3.5"/><circle cx="640" cy="381" r="3.5"/><circle cx="470" cy="381" r="3.5"/>
-      </g>
-      <g class="fp" font-family="'IBM Plex Mono',monospace" font-size="10" fill="#8A94A6">
-        <text x="236" y="30" text-anchor="end">MAIN</text>
-        <text x="652" y="128">SUPPLY</text>
-        <text x="482" y="726">POWER</text>
-        <text x="486" y="300">V-01</text>
-      </g>
-    </svg>
-  </div>
-
   <div class="hero-inner container">
     <div class="r-hero-copy">
       <span class="en-label reveal in-view">RECRUIT — JOIN THE CRAFT</span>
@@ -127,12 +80,17 @@
         <li><span class="legend-line lt-dashdot"></span>電気</li>
       </ul>
     </div>
+    <figure class="hero-photo r-hero-photo reveal in-view" data-d="2">
+      <span class="tick-corner tl"></span><span class="tick-corner tr"></span><span class="tick-corner bl"></span><span class="tick-corner br"></span>
+      <img src="assets/img/worker-survey.jpg" alt="現場で指差し確認を行う施工管理スタッフ" width="1800" height="1200" fetchpriority="high">
+      <figcaption><span class="cap-brass">FIG. R-01</span><span>施工管理 — CONSTRUCTION MANAGEMENT</span></figcaption>
+    </figure>
     <h1 class="r-hero-title reveal in-view" data-d="1">手に職、<br><span class="brass-text">一生もの。</span></h1>
   </div>
 </section>
 
 <!-- ============ R1 NUMBERS ============ -->
-<section class="section" id="numbers" style="padding-top: clamp(64px, 8vw, 100px);">
+<section class="section section--night" id="numbers" style="padding-top: clamp(64px, 8vw, 100px);">
   <div class="container">
     <div class="sec-head reveal">
       <span class="axis-mark" aria-hidden="true">
@@ -194,6 +152,7 @@
     <div class="job-grid">
       <article class="pillar-card job-card lt-solid reveal" data-d="1">
         <span class="tick-corner tl"></span><span class="tick-corner tr"></span><span class="tick-corner bl"></span><span class="tick-corner br"></span>
+        <div class="job-photo"><img src="assets/img/worker-survey-card.jpg" alt="図面を手に現場を確認する施工管理スタッフ" loading="lazy"><span class="cap">CONSTRUCTION MANAGEMENT</span></div>
         <p class="j-no">POSITION 01</p>
         <h3>施工管理<span class="j-en">Construction Management</span></h3>
         <p class="j-desc">建築設備工事・建築(リニューアル)工事の施工管理。図面と工程を握り、職人さんと段取りを組み、現場全体を動かしていく仕事です。現場監督補助からのスタートも可能です。</p>
@@ -206,6 +165,7 @@
 
       <article class="pillar-card job-card lt-dash reveal" data-d="2">
         <span class="tick-corner tl"></span><span class="tick-corner tr"></span><span class="tick-corner bl"></span><span class="tick-corner br"></span>
+        <div class="job-photo"><img src="assets/img/aircon-inspection.jpg" alt="天井カセット形エアコンを点検する現場スタッフ" loading="lazy"><span class="cap">AIR CONDITIONING</span></div>
         <p class="j-no">POSITION 02</p>
         <h3>現場スタッフ<span class="j-en">Field Engineer</span></h3>
         <p class="j-desc">ビル・商業施設などの業務用空調機器(エアコン等)の設置・改修作業。手を動かして技術を身につけ、街の「快適」を最前線でつくる仕事です。</p>

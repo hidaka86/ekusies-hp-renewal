@@ -54,122 +54,23 @@
 
 <!-- ============ HERO ============ -->
 <section class="hero">
-  <div class="hero-riser anim-scope" aria-hidden="true">
-    <svg viewBox="0 0 1100 780" preserveAspectRatio="xMaxYMax meet">
-      <!-- 補助線・躯体 -->
-      <g stroke="rgba(137,170,214,0.32)" stroke-width="1" fill="none">
-        <path class="dp" pathLength="1" d="M560 140 H1060 V700 H560 Z"/>
-        <line class="dp" pathLength="1" x1="560" y1="252" x2="1060" y2="252"/>
-        <line class="dp" pathLength="1" x1="560" y1="364" x2="1060" y2="364"/>
-        <line class="dp" pathLength="1" x1="560" y1="476" x2="1060" y2="476"/>
-        <line class="dp" pathLength="1" x1="560" y1="588" x2="1060" y2="588"/>
-        <line class="dp" pathLength="1" x1="500" y1="700" x2="1100" y2="700" stroke-width="2" stroke="rgba(137,170,214,0.45)"/>
-      </g>
-      <!-- 通り芯 -->
-      <g stroke="rgba(137,170,214,0.18)" stroke-width="1" fill="none">
-        <line class="dp" pathLength="1" x1="610" y1="98" x2="610" y2="724"/>
-        <line class="dp" pathLength="1" x1="810" y1="98" x2="810" y2="724"/>
-        <line class="dp" pathLength="1" x1="1010" y1="98" x2="1010" y2="724"/>
-      </g>
-      <g class="fp" fill="none" stroke="rgba(137,170,214,0.38)">
-        <circle cx="610" cy="76" r="15"/><circle cx="810" cy="76" r="15"/><circle cx="1010" cy="76" r="15"/>
-      </g>
-      <g class="fp" font-family="'IBM Plex Mono',monospace" font-size="10.5" fill="#8A94A6">
-        <text x="610" y="80" text-anchor="middle" fill="#C89B52">X1</text>
-        <text x="810" y="80" text-anchor="middle" fill="#C89B52">X2</text>
-        <text x="1010" y="80" text-anchor="middle" fill="#C89B52">X3</text>
-        <text x="548" y="200" text-anchor="end">5F</text>
-        <text x="548" y="312" text-anchor="end">4F</text>
-        <text x="548" y="424" text-anchor="end">3F</text>
-        <text x="548" y="536" text-anchor="end">2F</text>
-        <text x="548" y="648" text-anchor="end">1F</text>
-        <text x="506" y="692">GL</text>
-        <text x="852" y="172">PS</text>
-        <text x="1016" y="164">EPS</text>
-        <text x="1060" y="766" text-anchor="end" font-size="9">RISER DIAGRAM — EKUSIES EQUIPMENT SYSTEM / SCALE: N/A</text>
-      </g>
-      <!-- GLハッチ -->
-      <g class="fp" stroke="rgba(137,170,214,0.3)" stroke-width="1">
-        <path d="M520 714 l12 -12 M550 714 l12 -12 M580 714 l12 -12 M610 714 l12 -12 M640 714 l12 -12 M670 714 l12 -12 M700 714 l12 -12 M730 714 l12 -12 M760 714 l12 -12 M790 714 l12 -12 M820 714 l12 -12 M850 714 l12 -12 M880 714 l12 -12 M910 714 l12 -12 M940 714 l12 -12 M970 714 l12 -12 M1000 714 l12 -12 M1030 714 l12 -12 M1060 714 l12 -12"/>
-      </g>
-      <!-- 機器 -->
-      <g stroke="rgba(137,170,214,0.42)" stroke-width="1" fill="none">
-        <rect class="dp" pathLength="1" x="590" y="92" width="96" height="48"/>
-        <circle class="dp" pathLength="1" cx="618" cy="116" r="13"/>
-        <line class="dp" pathLength="1" x1="608" y1="106" x2="628" y2="126"/>
-        <line class="dp" pathLength="1" x1="628" y1="106" x2="608" y2="126"/>
-        <rect class="dp" pathLength="1" x="830" y="646" width="70" height="40"/>
-        <circle class="dp" pathLength="1" cx="850" cy="666" r="10"/>
-        <rect class="dp" pathLength="1" x="958" y="638" width="78" height="48"/>
-        <rect class="dp" pathLength="1" x="966" y="648" width="26" height="28"/>
-        <rect class="dp" pathLength="1" x="1000" y="648" width="26" height="28"/>
-      </g>
-      <g class="fp" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#8A94A6">
-        <text x="694" y="122">AHU</text>
-        <text x="865" y="702" text-anchor="middle">PUMP</text>
-        <text x="997" y="632" text-anchor="middle">CUB.</text>
-      </g>
-      <!-- 空調 = 実線(真鍮) -->
-      <g stroke="#C89B52" stroke-width="1.5" fill="none">
-        <line class="dp" pathLength="1" x1="638" y1="140" x2="638" y2="666"/>
-        <line class="dp" pathLength="1" x1="638" y1="218" x2="978" y2="218"/>
-        <line class="dp" pathLength="1" x1="638" y1="330" x2="978" y2="330"/>
-        <line class="dp" pathLength="1" x1="638" y1="442" x2="978" y2="442"/>
-        <line class="dp" pathLength="1" x1="638" y1="554" x2="978" y2="554"/>
-        <line class="dp" pathLength="1" x1="638" y1="666" x2="820" y2="666"/>
-      </g>
-      <g stroke="rgba(137,170,214,0.42)" stroke-width="1" fill="none">
-        <rect class="dp" pathLength="1" x="978" y="211" width="26" height="14"/>
-        <rect class="dp" pathLength="1" x="978" y="323" width="26" height="14"/>
-        <rect class="dp" pathLength="1" x="978" y="435" width="26" height="14"/>
-        <rect class="dp" pathLength="1" x="978" y="547" width="26" height="14"/>
-      </g>
-      <!-- 給排水 = 破線(真鍮) -->
-      <g class="fp" stroke="#C89B52" stroke-width="1.5" fill="none" stroke-dasharray="8 4">
-        <line x1="865" y1="646" x2="865" y2="182"/>
-        <line x1="865" y1="236" x2="702" y2="236"/>
-        <line x1="865" y1="348" x2="702" y2="348"/>
-        <line x1="865" y1="460" x2="702" y2="460"/>
-        <line x1="865" y1="572" x2="702" y2="572"/>
-        <line x1="830" y1="690" x2="500" y2="690"/>
-      </g>
-      <!-- 電気 = 一点鎖線(真鍮) -->
-      <g class="fp" stroke="#C89B52" stroke-width="1.5" fill="none" stroke-dasharray="12 4 2 4">
-        <line x1="997" y1="638" x2="997" y2="174"/>
-        <line x1="997" y1="208" x2="862" y2="208"/>
-        <line x1="997" y1="320" x2="862" y2="320"/>
-        <line x1="997" y1="432" x2="862" y2="432"/>
-        <line x1="997" y1="544" x2="862" y2="544"/>
-      </g>
-      <g stroke="rgba(137,170,214,0.42)" stroke-width="1" fill="none">
-        <rect class="dp" pathLength="1" x="848" y="201" width="14" height="14"/>
-        <rect class="dp" pathLength="1" x="848" y="313" width="14" height="14"/>
-        <rect class="dp" pathLength="1" x="848" y="425" width="14" height="14"/>
-        <rect class="dp" pathLength="1" x="848" y="537" width="14" height="14"/>
-      </g>
-      <!-- 節点 -->
-      <g class="fp" fill="#C89B52" stroke="none">
-        <circle cx="638" cy="218" r="3"/><circle cx="638" cy="330" r="3"/><circle cx="638" cy="442" r="3"/><circle cx="638" cy="554" r="3"/><circle cx="638" cy="666" r="3"/>
-        <circle cx="865" cy="236" r="3"/><circle cx="865" cy="348" r="3"/><circle cx="865" cy="460" r="3"/><circle cx="865" cy="572" r="3"/>
-        <circle cx="702" cy="236" r="3"/><circle cx="702" cy="348" r="3"/><circle cx="702" cy="460" r="3"/><circle cx="702" cy="572" r="3"/>
-        <circle cx="997" cy="208" r="3"/><circle cx="997" cy="320" r="3"/><circle cx="997" cy="432" r="3"/><circle cx="997" cy="544" r="3"/>
-      </g>
-    </svg>
-  </div>
-
   <div class="hero-inner container">
     <div class="hero-copy">
       <span class="en-label hero-overline reveal in-view">EQUIPMENT ENGINEERING, YOKOHAMA — SINCE 2009</span>
       <h1 class="hero-title reveal in-view" data-d="1">見えない仕事に、<br>見える<span class="brass-text">誇り</span>を。</h1>
-      <p class="hero-sub reveal in-view" data-d="2">空調・給排水衛生・電気。横浜で、建物のライフラインを設計から施工まで。</p>
+      <p class="hero-sub reveal in-view" data-d="2">空調・給排水衛生・電気。<br>横浜で、建物のライフラインを設計から施工まで。</p>
       <ul class="hero-legend reveal in-view" data-d="3" aria-label="事業領域の凡例">
         <li><span class="legend-line lt-solid"></span>空調 A/C</li>
         <li><span class="legend-line lt-dash"></span>給排水衛生 PLUMBING</li>
         <li><span class="legend-line lt-dashdot"></span>電気 ELECTRIC</li>
       </ul>
     </div>
+    <figure class="hero-photo reveal in-view" data-d="2">
+      <span class="tick-corner tl"></span><span class="tick-corner tr"></span><span class="tick-corner bl"></span><span class="tick-corner br"></span>
+      <img src="assets/img/aircon-inspection.jpg" alt="業務用空調(天井カセット形エアコン)を点検する作業員" width="1800" height="1200" fetchpriority="high">
+      <figcaption><span class="cap-brass">FIG. 01</span><span>業務用空調の点検・改修 — AIR CONDITIONING</span></figcaption>
+    </figure>
   </div>
-
   <p class="hero-vertical" aria-hidden="true">街の裏側に、技術を通す。</p>
 
   <div class="scroll-cue" aria-hidden="true">
@@ -350,7 +251,7 @@
 </section>
 
 <!-- ============ 03 FACTS ============ -->
-<section class="section section--deep" id="facts" style="padding-top:0;">
+<section class="section section--night" id="facts">
   <div class="container">
     <div class="sec-head reveal">
       <span class="axis-mark" aria-hidden="true">
@@ -644,12 +545,21 @@
       <line x1="166" y1="660" x2="194" y2="660" stroke="rgba(137,170,214,0.35)"/>
     </svg>
   </div>
-  <div class="container reveal">
-    <span class="en-label">RECRUIT — 採用情報</span>
-    <h2 class="bridge-title">共に、街の裏側を<br>支える人へ。</h2>
-    <p class="bridge-sub">施工管理・現場スタッフを募集しています。経験よりも、人物重視。<br><span class="bridge-terms">月給 30万〜50万円 ／ 原則週休2日 ／ 賞与 年2回</span></p>
-    <div class="bridge-cta">
-      <a class="btn btn-solid" href="recruit.html">採用情報を見る<span class="arrow"></span></a>
+  <div class="container">
+    <div class="bridge-grid">
+      <div class="reveal">
+        <span class="en-label">RECRUIT — 採用情報</span>
+        <h2 class="bridge-title">共に、街の裏側を<br>支える人へ。</h2>
+        <p class="bridge-sub">施工管理・現場スタッフを募集しています。経験よりも、人物重視。<br><span class="bridge-terms">月給 30万〜50万円 ／ 原則週休2日 ／ 賞与 年2回</span></p>
+        <div class="bridge-cta">
+          <a class="btn btn-solid" href="recruit.html">採用情報を見る<span class="arrow"></span></a>
+        </div>
+      </div>
+      <figure class="bridge-photo reveal" data-d="1">
+        <span class="tick-corner tl"></span><span class="tick-corner tr"></span><span class="tick-corner bl"></span><span class="tick-corner br"></span>
+        <img src="assets/img/worker-survey.jpg" alt="現場で指差し確認を行う施工管理スタッフ" width="1800" height="1200" loading="lazy">
+        <figcaption>FIG. 02 — 施工管理 CONSTRUCTION MANAGEMENT</figcaption>
+      </figure>
     </div>
   </div>
 </section>
