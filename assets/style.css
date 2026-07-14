@@ -166,6 +166,9 @@ body::after {
 }
 
 .brand { display: flex; flex-direction: column; line-height: 1.1; gap: 3px; }
+.site-header .brand { flex-direction: row; align-items: center; gap: 12px; }
+.brand-logo { height: 38px; width: auto; }
+.site-header .brand-ja { font-size: 10.5px; letter-spacing: 0.2em; color: var(--text); padding-top: 2px; }
 .brand-latin { font-family: var(--f-latin); font-weight: 600; font-size: 26px; letter-spacing: 0.02em; color: var(--text); }
 .brand-latin .b-e { color: var(--logo-blue); }
 .brand-latin .b-k { color: var(--copper); }
